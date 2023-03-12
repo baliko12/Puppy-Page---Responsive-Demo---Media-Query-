@@ -1,0 +1,245 @@
+/* Adjustment Starts  */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.wrapper img {
+  width: 100%;
+}
+
+/* Adjustment Ends  */
+
+/* Mobile First Approach CSS starts */
+
+/* Header Styling starts */
+
+header {
+  background-color: #085070;
+  padding: 30px;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 700;
+}
+
+/* Header Styling ends */
+
+/* Section 1 Style starts */
+
+.banner img {
+  width: 100%;
+}
+
+/* Section 1 Style ends */
+
+/* Section 2 Style starts */
+
+.smallPuppies {
+  padding: 85px 0 40px;
+}
+
+.one {
+  padding-bottom: 20px;
+}
+
+.two {
+  padding-top: 20px;
+}
+
+.middlePuppy {
+  background-color: #f04d64;
+  text-align: center;
+  font-size: 40px;
+  margin: 0 2%;
+  height: 219px;
+  display: none;
+}
+
+.missingPuppy {
+  padding: auto;
+}
+
+/* Section 2 Style ends */
+
+/* Section 3 Style starts */
+
+.morePuppies {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+/* Section 3 Style ends */
+
+/* Section 4 Style starts*/
+
+.bigPuppies {
+  padding: 40px 0 100px;
+}
+
+.left {
+  padding-bottom: 20px;
+}
+
+.right {
+  padding-top: 20px;
+}
+
+/* Section 4 Style ends */
+
+/* Footer Style starts */
+
+footer {
+  background-color: #085070;
+  padding: 50px 0 150px;
+  text-align: center;
+  width: 100%;
+}
+.credit {
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 700;
+}
+
+/* Footer Style ends */
+
+/* Mobile First Approach CSS ends*/
+
+/* Media Query starts */
+
+/* Media Query - Tablet Version  starts*/
+
+@media (min-width: 768px){
+  /* Section 2 Style starts */
+ .banner img{
+    width: 100%;
+ }
+  .wrapper {
+    width: 720px;
+  }
+.banner img{
+    width: 100%;
+}
+  .smallPuppies {
+    padding: 85px 0 40px;
+  }
+
+  .smallPuppies .wrapper {
+    display: flex;
+  }
+  .puppySmall {
+    width: 32%;
+  }
+
+  .middlePuppy {
+    display: block;
+    height: 232px;
+  }
+
+  .missingPuppy {
+    padding-top: 40px;
+  }
+
+  .one {
+    padding-bottom: 0px;
+  }
+
+  .two {
+    padding-top: 0px;
+  }
+
+  .bigPuppies .wrapper {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  .left {
+    padding-bottom: 0px;
+      padding-right: 4%;
+  
+  }
+
+  .right {
+    padding-top: 0px;
+  
+    padding-left: 4%;
+   
+}
+/* Media Query - Tablet Version  ends*/
+
+/* Media Query - Laptop Version  starts*/
+
+@media (min-width: 980px) {
+  section {
+    width: 980px;
+  }
+
+  .smallPuppies {
+    padding: 85px 0 40px;
+  }
+
+  .middlePuppy {
+    display: block;
+    height: 310px;
+  }
+
+  .missingPuppy {
+    padding-top: 70px;
+    font-size: 50px;
+  }
+
+  .puppySmall {
+    width: 310px;
+  }
+
+  .smallPuppies .wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .two {
+    padding-top: 0px;
+  }
+
+  .bigPuppies {
+    width: 48%;
+    /* margin: 0 2%; */
+    padding-top: 60px;
+    padding-left: 230px;
+  }
+
+  .left {
+    padding-bottom: 0px;
+    margin-left: 2px;
+    padding-left: 10px;
+  }
+
+  .right {
+    padding-top: 0px;
+    padding-left: 100px;
+  }
+
+  .bigPuppies .wrapper {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+}
+}
